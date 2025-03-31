@@ -8,3 +8,21 @@ h1{
     font-size: 80px;
     font-family: 'Courier New', Courier, monospace;
 }
+
+table{
+    border: 3px solid black;
+    border-collapse: collapse;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+td{
+    border: 3px solid black;
+    width: 150px;
+    text-align: center;
+}
+
+.tituloTabela{
+    background-color: gray;
+    color: white;
+}
