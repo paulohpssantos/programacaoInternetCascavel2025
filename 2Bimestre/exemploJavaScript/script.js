@@ -6,6 +6,10 @@
         //retornando o texto digitado no campo
         let textoDigitado = inputTexto.value;
 
+        //Convertendo o valor retornado no input em número
+        let num = Number(inputTexto.value);
+
+
         //Alterando o texto do elemento h1
         h1Texto.textContent = textoDigitado;
     }
